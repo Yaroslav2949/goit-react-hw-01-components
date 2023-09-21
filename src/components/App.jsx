@@ -15,7 +15,7 @@ export const App = () => {
       <h1>React homework-1 template</h1>
       <div className={css.taskContainer}>
        
-       Передаємо властивості (props) з масиву даних до компонента. 
+       
         <Profile
           username={user.username}
           tag={user.tag}
