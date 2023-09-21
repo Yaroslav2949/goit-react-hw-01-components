@@ -1,0 +1,19 @@
+.transactionHistory {
+  background-color: aquamarine;
+  text-transform: uppercase;
+  max-width: 700px;
+  width: 100%;
+}
+
+.th {
+  border: 3px solid #a6b6ad;
+  padding: 5px;
+}
+
+.row {
+  background-color: rgb(230, 216, 23);
+}
+.td {
+  border: 1px solid #add3be;
+  padding: 5px;
+}

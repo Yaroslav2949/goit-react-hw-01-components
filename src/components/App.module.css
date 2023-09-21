@@ -1,0 +1,18 @@
+.main {
+  color: #010101;
+  display: block;
+  height: 100vh;
+  text-align: center;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+.taskContainer {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
