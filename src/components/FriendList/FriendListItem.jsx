@@ -6,7 +6,7 @@ import css from './FriendListItem.module.css';
 export const FriendListItem = ({ avatar, name, isOnline }) => {
   return (
     <li className={css.item}>
-      {/*  динамічне встановлення кольору статусу, в залежності від того, чи друг онлайн */}
+    
       <span
         className={
           isOnline ? `${css.status} ${css.green}` : `${css.status} ${css.red}`

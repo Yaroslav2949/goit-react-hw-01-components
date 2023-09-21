@@ -14,8 +14,8 @@ export const App = () => {
     <div className={css.main}>
       <h1>React homework-1 template</h1>
       <div className={css.taskContainer}>
-        {/* Відображення інформації про користувача з файлу .json (масив даних) тобто
-       Передаємо властивості (props) з масиву даних до компонента. */}
+       
+       Передаємо властивості (props) з масиву даних до компонента. 
         <Profile
           username={user.username}
           tag={user.tag}

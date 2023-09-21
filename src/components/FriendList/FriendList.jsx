@@ -6,11 +6,9 @@ import { FriendListItem } from './FriendListItem';
 export const FriendList = ({ friends }) => {
   return (
     <ul className={css.friendList}>
-      {/* перебір масиву  даних з друзями */}
+    
       {friends.map(friend => {
-        {
-          /* повертаємо  карточку (<li/>)з другом */
-        }
+       
         return (
           <FriendListItem
             key={friend.id}

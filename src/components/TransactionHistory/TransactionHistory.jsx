@@ -13,7 +13,7 @@ export const TransactionHistory = ({ items }) => {
       </thead>
 
       <tbody>
-        {/*проходимо по кожному елементу масиву, деструкткризуємо пропси та створюємо шаблон розмітки для предачі в таблицю для рендеру */}
+         
         {items.map(({ id, type, amount, currency }) => {
           return (
             <tr className={css.tr} key={id}>
